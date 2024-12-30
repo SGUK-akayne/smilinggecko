@@ -4,7 +4,7 @@ from slides import slide11, slide12, slide13, slide14, slide15, dashboardKPI
 st.set_page_config(layout="wide") 
 
 # Add a logo to the top of the sidebar
-logo_url = "https://raw.githubusercontent.com/johannesaschoff/cs_demonstration/main/images/logo_grey.png" 
+logo_url = "https://raw.githubusercontent.com/SGUK-akayne/smilinggecko/main/images/logo_grey.png" 
 st.sidebar.image(logo_url, width=100)
 
 # Sidebar for slide selection
