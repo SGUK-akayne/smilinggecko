@@ -65,11 +65,11 @@ def render():
     for col, urls in zip(columns, image_urls):
         for url in urls:
             col.image(
-                f"https://raw.githubusercontent.com/johannesaschoff/cs_demonstration/main/images/{url}",
+                f"https://raw.githubusercontent.com/SGUK-akayne/smilinggecko/main/images/{url}",
                 use_container_width=True
             )
 
-    pptx_url = "https://raw.githubusercontent.com/johannesaschoff/cs_demonstration/main/PitchDeck education.pptx"
+    pptx_url = "https://raw.githubusercontent.com/SGUK-akayne/smilinggecko/main/PitchDeck education.pptx"
     try:
         pptx_data = fetch_pptx(pptx_url)
         st.download_button(
